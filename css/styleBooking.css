@@ -1,0 +1,167 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 100%;
+    color: #ffffff;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font: 500;
+    cursor:default;
+    justify-content: center;
+    display: block;
+}
+
+header{
+    background-color:#bb3a1a ;
+    display: flex;
+}
+div{
+    padding-top: 25px;
+    padding-bottom: 25px;
+    display: block;
+}
+a{
+    text-decoration: none;
+    color: currentColor;
+    margin: auto;
+    
+}
+#logo_link{
+    margin: 0;
+}
+.logo_img{
+    margin: 20px;
+    padding-top: 10px;
+    transition-duration:0.5s ;
+}
+.logo_img:hover{
+    width: 110px;
+}
+.panel{
+    display: flex;
+    margin:auto;  
+}
+.panel_button{
+    text-align: center;
+    border: 2px solid #080808;
+    border-radius: 3px;
+    width: 200px;
+    display: flex;
+    background-color: #ec6351;
+    margin-left: 50px;
+    margin-right: 50px;
+    transition-duration: 0.5s;
+}
+.panel_button:hover{
+    background-color:  #fdfdfd;
+    color:#000000;  
+}
+
+.button_text{
+    margin: auto;
+    font-size: 18px;
+    font-weight: 600;  
+}
+
+
+section{
+    background-color: #ec6351;
+    color:white;
+    border: 2px solid #0f0f0f;
+}
+
+.booking{
+    background-color: #da5955;
+    background-size: cover;
+    text-align: left;
+    margin-left: 200px;
+    margin-right: 200px;
+    display: flex;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    
+}
+.order_details{
+    border: 3px solid #000000;
+    border-radius: 5px;
+    padding: 20px;
+    width: 30%;
+    margin-left: 20px;
+    margin: 20px;
+    line-height : 2;
+    
+}
+.guest_details{
+    border: 3px solid #000000;
+    border-radius: 5px;
+    padding: 20px;
+    width: 30%;
+    margin-left: 20px;
+    margin: 20px;
+    line-height : 1.5;
+}
+.additionalServices{
+    border: 3px solid #000000;
+    border-radius: 5px;
+    padding: 20px;
+    width: 30%;
+    margin-left: 20px;
+    margin: 20px;
+}
+.finish{
+    border: 3px solid #000000;
+    border-radius: 5px;
+    padding: 20px;
+    width: 30%;
+    margin-left: 20px;
+    margin: 20px;
+    line-height : 2;
+}
+.summ{
+    border: 2px solid #080808;
+    border-radius: 5px;
+    background-color: #ffffff;
+    color: #050505;
+}
+.btn{
+    text-align: center;
+    border: 2px solid #000000;
+    border-radius: 3px;  
+    margin-top: 20px;
+    color: #fffbfb;
+    font-weight: 900;
+    transition-duration: 0.5s;
+    background-color: #ec6351;
+}
+.btn:hover{
+    border: 2px solid #000000;
+    background-color:#fffefb ;
+    color:#110f0c ;
+
+}
+
+footer{
+    background-color: #da5955;
+    display: flex;
+    margin: auto;
+    padding-bottom: 50px;
+    padding-top: 50px;
+    
+}
+.phone_number{
+    justify-content: left;
+    margin: auto;
+    cursor: pointer;
+    
+}
+.links_block{
+    justify-content: right;  
+    margin: auto;
+    cursor: pointer;
+    
+}
+.link:hover{
+    color: white;
+}
